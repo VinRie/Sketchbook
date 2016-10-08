@@ -27,7 +27,6 @@ function setup() {
   sponge.push(myBox);
 }
 
-
 function mousePressed(){
   clear();
   var nextGen = new Array();
