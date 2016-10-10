@@ -9,7 +9,6 @@ function setup() {
   a = 0;
   createCanvas(1200, 800, WEBGL);
   myBox = new Box(0,0,0,500);
-
   sponge.push(myBox);
 }
 
@@ -37,7 +36,6 @@ function draw() {
 
   for(index = 0; index < sponge.length; ++index){
     sponge[index].draw();
-
   }
   a = (a +0.01) % (2* PI) ;
 

@@ -1,8 +1,8 @@
 var width = 1200;
 var height = 800;
 
-var xsize = 75;
-var ysize = 50;
+var xsize = 10;
+var ysize = 10;
 
 var grid = [];
 var currentCell;
@@ -21,6 +21,7 @@ function setup() {
   grid[0].visited = true;
   totalCells = grid.length ;
   stack.push(currentCell);
+  frameRate(2);
 }
 
 function draw( ) {
