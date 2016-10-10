@@ -38,16 +38,15 @@ function draw(){
   background(100);
 
   if(running)
-    grid.map(function(cell) {cell.calcNextState(grid,grid_width, grid_height);});
+    grid.forEach(function(cell) {cell.calcNextState(grid,grid_width, grid_height);});
 
-  grid.map(function(cell) {cell.update();});
-  grid.map(function(cell) {cell.draw();});
+  grid.forEach(function(cell) {cell.update();});
+  grid.forEach(function(cell) {cell.draw();});
 }
 
 function getCell(x, y){
   var i = Math.floor((x / canvas_width) * grid_width);
   var j = Math.floor((y / canvas_height) * grid_height);
-
 
   console.log(grid[i + j*grid_width]);
   return grid[i + j*grid_width];
