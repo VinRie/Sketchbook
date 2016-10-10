@@ -35,19 +35,13 @@ function mousePressed(){
 }
 
 function draw(){
-
   background(100);
 
-  for(c = 0; c < grid.length; ++c)
-    if(running)
-      grid[c].calcNextState(grid, grid_width, grid_height);
+  if(running)
+    grid.map(function(cell) {cell.calcNextState(grid,grid_width, grid_height);});
 
-  for(c = 0; c < grid.length; ++c)
-    if(running)
-      grid[c].update();
-
-  for(c = 0; c < grid.length; ++c)
-    grid[c].draw();
+  grid.map(function(cell) {cell.update();});
+  grid.map(function(cell) {cell.draw();});
 }
 
 function getCell(x, y){
