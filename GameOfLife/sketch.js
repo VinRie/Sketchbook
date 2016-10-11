@@ -36,10 +36,8 @@ function mousePressed(){
 
 function draw(){
   background(100);
-
   if(running)
     grid.forEach(function(cell) {cell.calcNextState(grid,grid_width, grid_height);});
-
   grid.forEach(function(cell) {cell.update();});
   grid.forEach(function(cell) {cell.draw();});
 }

@@ -14,15 +14,11 @@ function cell(i, j, xwidth, ywidth){
       noStroke();
       fill(0);
       fill(0,75,50,66);
-
       rect(this.x, this.y, this.xwidth, this.ywidth);
-
     }else{
       stroke(255);
       fill(100,75,50,66);
-
       rect(this.x, this.y, this.xwidth, this.ywidth);
-
     }
   }
 
@@ -51,18 +47,13 @@ function cell(i, j, xwidth, ywidth){
           population = population + 1;
       }
     }
-
     // Rules:
-
-    if(population > 3){
+    if(population > 3)
       this.nextState = false;
-    }
-    if(population < 2){
+    if(population < 2)
       this.nextState = false;
-    }
-    if(population === 3){
+    if(population === 3)
       this.nextState = true;
-    }
   }
 
   this.invertState = function(){
