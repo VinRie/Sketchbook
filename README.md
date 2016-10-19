@@ -10,9 +10,9 @@ This is my Sketchbook. I have never written anything in JavaScript before, but p
 | Maze Generator  | [/MazeGen/](https://vinrie.github.io/Sketchbook/MazeGen/) |
 | Sponge    |[/Sponge/] (https://vinrie.github.io/Sketchbook/Sponge/)  |
 | Game Of Life    |[/GameOfLife/] (https://vinrie.github.io/Sketchbook/GameOfLife/)  |
+| Fractal Tree    |[/FractalTree/] (https://vinrie.github.io/Sketchbook/FractalTree/)  |
 
-
-## Heavily inspired by the work of
+Heavily inspired by the work of
 Daniel Shiffman
 
 
