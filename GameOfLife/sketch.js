@@ -1,7 +1,7 @@
 var grid_width = 50;
 var grid_height = 50;
 var canvas_width = 1200;
-var canvas_height = 1200;
+var canvas_height = 800;
 var xscale = canvas_width / grid_width;
 var yscale = canvas_height / grid_height;
 var grid = new Array();
