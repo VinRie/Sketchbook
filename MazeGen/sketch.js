@@ -1,8 +1,8 @@
 var width = 1200;
 var height = 800;
 
-var xsize = 10;
-var ysize = 10;
+var xsize = 100;
+var ysize = 100;
 
 var grid = [];
 var currentCell;
