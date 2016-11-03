@@ -7,10 +7,10 @@ This is my Sketchbook. I have never written anything in JavaScript before, but p
 
 | Sketch          | URL           |
 | -------------   | ------------- |
-| Maze Generator  | [/MazeGen/](https://vinrie.github.io/Sketchbook/MazeGen/) |
-| Sponge    |[/Sponge/] (https://vinrie.github.io/Sketchbook/Sponge/)  |
-| Game Of Life    |[/GameOfLife/] (https://vinrie.github.io/Sketchbook/GameOfLife/)  |
-| Fractal Tree    |[/FractalTree/] (https://vinrie.github.io/Sketchbook/FractalTree/)  |
+| Maze Generator  | [/MazeGen/](https://vincinator.github.io/Sketchbook/MazeGen/) |
+| Sponge    |[/Sponge/] (https://vincinator.github.io/Sketchbook/Sponge/)  |
+| Game Of Life    |[/GameOfLife/] (https://vincinator.github.io/Sketchbook/GameOfLife/)  |
+| Fractal Tree    |[/FractalTree/] (https://vincinator.github.io/Sketchbook/FractalTree/)  |
 
 Heavily inspired by the work of
 Daniel Shiffman
